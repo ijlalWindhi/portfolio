@@ -1,0 +1,30 @@
+:root {
+    --blue: #5463FF;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 57px;
+}
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 343px;
+    color: var(--blue);
+}
+.navbar-text {
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 45px;
+}
+.navbar-text:hover{
+    color: var(--blue);
+}
+ul li {
+    display: inline;
+}
